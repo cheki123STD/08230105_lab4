@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Learning Journey</title>
+</head>
+<body style="background-color: lightblue; color: black;">
+
+    <h1>My Learning Journey</h1>
+        <h2>My education</h2>
+        <p>My learning journey began from the age 5 in 2010. In primary and high school, I have explored different subjects and learned a lot of discipline. However, College life taught me more of independent and challenges. These experiences are challenging but i feel it is shaping my personal growth.</p>
+        <small>Started on: {{ item.date_started }}</small><br>
+        <small>Last Updated: {{ item.date_updated }}</small>
+        <hr>
+        <a href="{% url 'aboutMe' %}">About Me</a>
+</body>
+</html>
